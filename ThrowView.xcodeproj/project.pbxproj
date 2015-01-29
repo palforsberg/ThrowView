@@ -15,8 +15,6 @@
 		D1EC6311189527D80076EAF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EC6310189527D80076EAF8 /* AppDelegate.m */; };
 		D1EC6314189527D80076EAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EC6312189527D80076EAF8 /* Main.storyboard */; };
 		D1EC6317189527D80076EAF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EC6316189527D80076EAF8 /* ViewController.m */; };
-		D1EC6319189527D80076EAF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EC6318189527D80076EAF8 /* Images.xcassets */; };
-		D1EC6320189527D80076EAF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EC631F189527D80076EAF8 /* XCTest.framework */; };
 		D1EC6321189527D80076EAF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EC6300189527D80076EAF8 /* Foundation.framework */; };
 		D1EC6322189527D80076EAF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EC6304189527D80076EAF8 /* UIKit.framework */; };
 		D1EC632A189527D80076EAF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1EC6328189527D80076EAF8 /* InfoPlist.strings */; };
@@ -48,9 +46,7 @@
 		D1EC6313189527D80076EAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1EC6315189527D80076EAF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D1EC6316189527D80076EAF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D1EC6318189527D80076EAF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1EC631E189527D80076EAF8 /* ThrowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThrowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1EC631F189527D80076EAF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D1EC6327189527D80076EAF8 /* ThrowViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThrowViewTests-Info.plist"; sourceTree = "<group>"; };
 		D1EC6329189527D80076EAF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1EC632B189527D80076EAF8 /* ThrowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThrowViewTests.m; sourceTree = "<group>"; };
@@ -73,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EC6320189527D80076EAF8 /* XCTest.framework in Frameworks */,
 				D1EC6322189527D80076EAF8 /* UIKit.framework in Frameworks */,
 				D1EC6321189527D80076EAF8 /* Foundation.framework in Frameworks */,
 			);
@@ -107,7 +102,6 @@
 				D1EC6300189527D80076EAF8 /* Foundation.framework */,
 				D1EC6302189527D80076EAF8 /* CoreGraphics.framework */,
 				D1EC6304189527D80076EAF8 /* UIKit.framework */,
-				D1EC631F189527D80076EAF8 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,7 +116,6 @@
 				D1EC6316189527D80076EAF8 /* ViewController.m */,
 				D1EC6335189527E60076EAF8 /* ThrowView.h */,
 				D1EC6336189527E60076EAF8 /* ThrowView.m */,
-				D1EC6318189527D80076EAF8 /* Images.xcassets */,
 				D1EC6307189527D80076EAF8 /* Supporting Files */,
 			);
 			path = ThrowView;
@@ -233,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EC6319189527D80076EAF8 /* Images.xcassets in Resources */,
 				D1EC630B189527D80076EAF8 /* InfoPlist.strings in Resources */,
 				D1EC6314189527D80076EAF8 /* Main.storyboard in Resources */,
 			);
@@ -466,6 +458,7 @@
 				D1EC6331189527D80076EAF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1EC6332189527D80076EAF8 /* Build configuration list for PBXNativeTarget "ThrowViewTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +467,7 @@
 				D1EC6334189527D80076EAF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
