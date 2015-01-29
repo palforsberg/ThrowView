@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ThrowView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<ThrowViewDelegate>
 
 @end

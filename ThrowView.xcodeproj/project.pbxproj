@@ -21,6 +21,7 @@
 		D1EC6322189527D80076EAF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EC6304189527D80076EAF8 /* UIKit.framework */; };
 		D1EC632A189527D80076EAF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1EC6328189527D80076EAF8 /* InfoPlist.strings */; };
 		D1EC632C189527D80076EAF8 /* ThrowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EC632B189527D80076EAF8 /* ThrowViewTests.m */; };
+		D1EC6337189527E60076EAF8 /* ThrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EC6336189527E60076EAF8 /* ThrowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D1EC6327189527D80076EAF8 /* ThrowViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThrowViewTests-Info.plist"; sourceTree = "<group>"; };
 		D1EC6329189527D80076EAF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1EC632B189527D80076EAF8 /* ThrowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThrowViewTests.m; sourceTree = "<group>"; };
+		D1EC6335189527E60076EAF8 /* ThrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThrowView.h; sourceTree = "<group>"; };
+		D1EC6336189527E60076EAF8 /* ThrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThrowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D1EC6312189527D80076EAF8 /* Main.storyboard */,
 				D1EC6315189527D80076EAF8 /* ViewController.h */,
 				D1EC6316189527D80076EAF8 /* ViewController.m */,
+				D1EC6335189527E60076EAF8 /* ThrowView.h */,
+				D1EC6336189527E60076EAF8 /* ThrowView.m */,
 				D1EC6318189527D80076EAF8 /* Images.xcassets */,
 				D1EC6307189527D80076EAF8 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1EC6317189527D80076EAF8 /* ViewController.m in Sources */,
+				D1EC6337189527E60076EAF8 /* ThrowView.m in Sources */,
 				D1EC6311189527D80076EAF8 /* AppDelegate.m in Sources */,
 				D1EC630D189527D80076EAF8 /* main.m in Sources */,
 			);
