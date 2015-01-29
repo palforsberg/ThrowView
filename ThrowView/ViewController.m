@@ -16,10 +16,8 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
     ThrowView *throw = [[ThrowView alloc] initWithFrame:self.view.frame];
     throw.throwDelegate = self;

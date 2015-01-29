@@ -2,7 +2,7 @@
 //  ViewController.h
 //  ThrowView
 //
-//  Created by Pål Forsberg on 2014-01-26.
+//  Created by Pål on 2014-01-26.
 //  Copyright (c) 2014 Pål. All rights reserved.
 //
 
