@@ -30,8 +30,9 @@
     }
 }
 
--(void)throwViewDidDidRemoveView:(UIView *)v{
-    NSLog(@"Did remove view");
+
+-(void)throwView:(ThrowView *)tv willRemoveView:(UIView *)v{
+        NSLog(@"Did remove view");
 }
 
 - (void)didReceiveMemoryWarning

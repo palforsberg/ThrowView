@@ -106,7 +106,9 @@
 //removes view v from superview and calls delegate
 -(void)removeView:(UIView *)v{
     if(!CGRectIntersectsRect(self.frame, v.frame)){
-        [self.throwDelegate throwView:self willRemoveView:v];
+        if([self.throwDelegate respondsToSelector:@selector(throwView:willRemoveView:)]){
+            [self.throwDelegate throwView:self willRemoveView:v];
+        }
         [v removeFromSuperview];
         [animator removeBehavior:push];
     }
