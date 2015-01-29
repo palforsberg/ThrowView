@@ -2,19 +2,14 @@
 //  ViewController.m
 //  ThrowView
 //
-//  Created by Pål Forsberg on 2014-01-26.
-//  Copyright (c) 2014 Pål Forsberg. All rights reserved.
+//  Created by Pål on 2014-01-26.
+//  Copyright (c) 2014 Pål. All rights reserved.
 //
 
 #import "ViewController.h"
 
 
 @interface ViewController (){
-    UIDynamicAnimator *animator;
-//    ThrowView *throw;
-    UIAttachmentBehavior *attachment;
-    UIPushBehavior *push;
-//    UIView *dragView;
 }
 
 @end
@@ -27,7 +22,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     ThrowView *throw = [[ThrowView alloc] initWithFrame:self.view.frame];
-//    throw.delegate = self;
+    throw.throwDelegate = self;
     [self.view addSubview:throw];
     for(int i = 0; i<10; i++){
         UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
